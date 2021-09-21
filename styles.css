@@ -122,13 +122,13 @@ body {
   color: #000;
 }
 
-.section-popular-tutorials .card-img-wrapper {
+.card-img-wrapper {
   position: relative;
   width: fit-content;
   height: fit-content;
 }
 
-.section-popular-tutorials .card-img-wrapper::after {
+.card-img-wrapper::after {
   content: '';
   background-image: url('/images/play.png');
   background-size: contain;
@@ -143,7 +143,7 @@ body {
   transition: opacity 0.2s ease-in-out;
 }
 
-.section-popular-tutorials .card-img-wrapper:hover::after {
+.card-img-wrapper:hover::after {
   opacity: 1;
   transition: opacity 0.2s ease-in-out;
 }
@@ -152,4 +152,18 @@ body {
 .section-free-membership .card {
   max-width: 257px;
   height: 153px;
+}
+
+/* Section - latest-videos */
+
+.section-latest-videos {
+  background-color: #fff;
+}
+
+.section-latest-videos .header-text {
+  font-size: 2rem;
+}
+
+.section-latest-videos .card-title {
+  color: #000;
 }
