@@ -147,3 +147,9 @@ body {
   opacity: 1;
   transition: opacity 0.2s ease-in-out;
 }
+
+/* Section - free membership */
+.section-free-membership .card {
+  max-width: 257px;
+  height: 153px;
+}
