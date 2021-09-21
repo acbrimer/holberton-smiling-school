@@ -12,7 +12,7 @@
  */
 :root {
   /* theme colors */
-  --primary: #c271ff !important;
+  --primary: #c271ff;
   --success: #198754;
   --info: #0dcaf0;
   --warning: #ffc107;
@@ -94,11 +94,16 @@ body {
 }
 
 .masthead-header {
-  font-family: var(--bs-body-font-family);
+  font-family: var(--body-font-family);
   font-size: 4rem;
 }
 
 .nav-collapse {
   border: none !important;
   box-shadow: none !important;
+}
+
+.carousel-testimonial {
+  background-color: var(--primary);
+  background: var(--primary);
 }
