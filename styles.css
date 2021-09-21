@@ -103,7 +103,33 @@ body {
   box-shadow: none !important;
 }
 
-.carousel-testimonial {
+/* Section - quotes */
+.section-quotes {
   background-color: var(--primary);
   background: var(--primary);
+}
+
+/* Section - popular-tutorials */
+.section-popular-tutorials {
+  background-color: #fff;
+}
+
+.section-popular-tutorials .header-text {
+  font-size: 2rem;
+}
+
+.section-popular-tutorials .card-title {
+  color: #000;
+}
+
+.section-popular-tutorials .card-tutorial::before {
+  content: url('images/play.png');
+  position: absolute;
+
+  transform: scale(0.75) translateX(40%);
+  opacity: 0.7;
+}
+
+.section-popular-tutorials .card-tutorial:hover::before {
+  opacity: 1;
 }
