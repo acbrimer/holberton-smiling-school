@@ -149,6 +149,10 @@ body {
 }
 
 /* Section - free membership */
+.section-free-membership {
+  min-height: 300px;
+}
+
 .section-free-membership .card {
   max-width: 257px;
   height: 153px;
@@ -166,4 +170,15 @@ body {
 
 .section-latest-videos .card-title {
   color: #000;
+}
+
+/* footer */
+
+.footer .social-links-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .social-link {
+  font-size: 2rem;
 }
