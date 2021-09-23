@@ -96,11 +96,20 @@ body {
 .masthead-header {
   font-family: var(--body-font-family);
   font-size: 4rem;
+  font-weight: 700;
 }
 
 .nav-collapse {
   border: none !important;
   box-shadow: none !important;
+}
+
+.nav-current {
+  color: var(--primary);
+  border-bottom-width: 1px;
+  border-bottom-color: #fff;
+  border-bottom-style: solid;
+  padding-bottom: 0.3rem;
 }
 
 /* Section - quotes */
@@ -181,4 +190,14 @@ body {
 
 .footer .social-link {
   font-size: 2rem;
+}
+
+/* Pricing */
+.pricing-page .masthead {
+  background: var(--bs-secondary);
+  background-image: url('/images/pic_2.jpg');
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  padding-bottom: 3rem;
 }
