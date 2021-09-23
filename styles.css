@@ -193,11 +193,49 @@ body {
 }
 
 /* Pricing */
-.pricing-page .masthead {
+.pricing-page {
   background: var(--bs-secondary);
   background-image: url('/images/pic_2.jpg');
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
   padding-bottom: 3rem;
+}
+
+.pricing-page .masthead {
+  background-color: transparent;
+  background: transparent;
+  background-image: none;
+  padding-bottom: 3rem;
+}
+
+.pricing-page .section-pricing-grid .card .card-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.pricing-page .pricing-btn {
+  min-width: 160px;
+}
+
+/* pricing grid section */
+.pricing-page .pricing-table {
+  font-size: 2rem;
+  background-color: transparent;
+  padding: 2rem;
+  margin: 0 0.5rem;
+}
+
+.pricing-page .pricing-table th {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+/* FAQ section */
+.pricing-page .section-faq-grid .card .card-title {
+  font-weight: 700;
+  margin-bottom: 2rem;
 }
