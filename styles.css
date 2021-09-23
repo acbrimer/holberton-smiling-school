@@ -22,7 +22,7 @@
 
   /* font */
   --font-family-sans-serif: 'Source Sans Pro' sans-serif;
-  --font-family-monospace: 'Coiny', monospace;
+  --font-family-secondary: Coiny, monospace;
 
   /* body */
   --body-font-family: var(--font-family-sans-serif);
@@ -238,4 +238,17 @@ body {
 .pricing-page .section-faq-grid .card .card-title {
   font-weight: 700;
   margin-bottom: 2rem;
+}
+
+/* Courses */
+
+/* courses header */
+.courses-page .masthead {
+  background-image: url('/images/pic_3.jpg');
+}
+
+.courses-page .masthead-header {
+  font-family: var(--font-family-secondary);
+  font-size: 3rem;
+  width: 480px;
 }
